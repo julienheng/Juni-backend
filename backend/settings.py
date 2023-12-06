@@ -22,7 +22,7 @@ DEBUG = env('DEBUG')
 
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
 
 
 CORS_ALLOWED_ORIGINS = [
